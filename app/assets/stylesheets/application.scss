@@ -14,3 +14,47 @@
  *= require_self
  */
 @import "bootstrap/scss/bootstrap";
+
+.header {
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  align-items: center;
+  border-bottom: grey;
+}
+
+.header h2 {
+  color: grey;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.header a {
+  color: grey;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.header a:hover {
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px 100px;
+}
+
+.article a {
+  color: #337ab7;
+}
+
+.article a:hover {
+  color: #23527C;
+}
+
+h1 {
+  font-size: 24px;
+}
